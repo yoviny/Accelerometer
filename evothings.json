@@ -1,0 +1,27 @@
+{
+  "name": "cordova-accelerometer",
+  "version": "1.0.0",
+  "title": "Cordova Accelerometer",
+  "description": "Simple app to get started using the accelerometers on the mobile device.",
+  "long-description": "Simple app to get started using the accelerometers on the mobile device.",
+  "tags": [],
+  "libraries": [
+    {
+      "name": "jquery",
+      "version": "2.1.1"
+    }
+  ],
+  "index-file": "index.html",
+  "uuid": "8b6798ac-afe3-4ad4-bfed-2d96a09bad61",
+  "icon": "app-icon.png",
+  "cordova-id": "com.evothings.examples.cordovaaccelerometer",
+  "plugins": [
+    {
+      "name": "cordova-plugin-device-motion"
+    },
+    {
+      "name": "cordova-plugin-vibration"
+    }
+  ],
+  "doc-url": "https://evothings.com/2.2/doc/examples/cordova-accelerometer.html"
+}
